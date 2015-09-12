@@ -1,0 +1,22 @@
+{
+  "name": "vile",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vlikin/vile",
+  "authors": [
+    "Viktor Likin <viktor.likin@gmail.com>"
+  ],
+  "description": "The ViLe project.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "master",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "satellizer": "~0.12.5"
+  }
+}

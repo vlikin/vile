@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+
+    block css
+      link(href='/static/build/3p.css', rel='stylesheet')
+      link(href='/static/css/style.css', rel='stylesheet')
+
+  body(ng-app='vile/ui' ng-controller='FrameController')
+    block body
+      Body place
+
+block script
+  script(src='/static/build/3p.js')
+  script(src='/static/js/build/ui.js')
